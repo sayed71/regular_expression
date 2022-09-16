@@ -7,3 +7,6 @@ $product_name = preg_replace("/[\s_()]/", "-", $product_name); <br>
 $product_name = preg_replace("/[^A-Za-z0-9(\-)]/", '', $product_name); <br>
 $product_name = str_replace( array( '\'', '"', ',' , ';', '<', '>', '.', '%' ), ' ', $product_name); <br>
 echo $product_name;
+
+## Reference:
+- javaTpoint: https://www.javatpoint.com/regex
